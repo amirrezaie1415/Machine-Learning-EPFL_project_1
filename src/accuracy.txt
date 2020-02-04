@@ -1,0 +1,315 @@
+##################################################
+
+***Base Model***
+	%lambda:0
+		-Train Accuracy:    #Group0:0.825    #Group1:0.713    #Group2:0.740    #Group3:0.729
+		-Valid Accuracy:    #Group0:0.828    #Group1:0.713    #Group2:0.737    #Group3:0.741
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.825    #Group1:0.713    #Group2:0.740    #Group3:0.729
+		-Valid Accuracy:    #Group0:0.828    #Group1:0.713    #Group2:0.737    #Group3:0.741
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.825    #Group1:0.713    #Group2:0.740    #Group3:0.729
+		-Valid Accuracy:    #Group0:0.828    #Group1:0.713    #Group2:0.737    #Group3:0.741
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.825    #Group1:0.713    #Group2:0.739    #Group3:0.728
+		-Valid Accuracy:    #Group0:0.828    #Group1:0.715    #Group2:0.738    #Group3:0.740
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.814    #Group1:0.707    #Group2:0.715    #Group3:0.709
+		-Valid Accuracy:    #Group0:0.815    #Group1:0.711    #Group2:0.713    #Group3:0.722
+
+##################################################
+
+***Augmented model 01***
+
+%Number of basis functions:3
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.839    #Group1:0.773    #Group2:0.794    #Group3:0.773
+		-Valid Accuracy:    #Group0:0.845    #Group1:0.777    #Group2:0.792    #Group3:0.780
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.839    #Group1:0.773    #Group2:0.794    #Group3:0.773
+		-Valid Accuracy:    #Group0:0.845    #Group1:0.777    #Group2:0.792    #Group3:0.780
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.839    #Group1:0.773    #Group2:0.794    #Group3:0.773
+		-Valid Accuracy:    #Group0:0.845    #Group1:0.777    #Group2:0.792    #Group3:0.780
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.838    #Group1:0.766    #Group2:0.786    #Group3:0.764
+		-Valid Accuracy:    #Group0:0.843    #Group1:0.769    #Group2:0.784    #Group3:0.776
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.817    #Group1:0.711    #Group2:0.727    #Group3:0.705
+		-Valid Accuracy:    #Group0:0.820    #Group1:0.711    #Group2:0.728    #Group3:0.720
+
+---------------------------------------------------------------------------------------------
+
+%Number of basis functions:5
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.845    #Group1:0.807    #Group2:0.828    #Group3:0.818
+		-Valid Accuracy:    #Group0:0.849    #Group1:0.805    #Group2:0.827    #Group3:0.822
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.845    #Group1:0.807    #Group2:0.828    #Group3:0.818
+		-Valid Accuracy:    #Group0:0.849    #Group1:0.805    #Group2:0.827    #Group3:0.822
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.845    #Group1:0.807    #Group2:0.828    #Group3:0.818
+		-Valid Accuracy:    #Group0:0.849    #Group1:0.805    #Group2:0.827    #Group3:0.822
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.845    #Group1:0.803    #Group2:0.824    #Group3:0.807
+		-Valid Accuracy:    #Group0:0.849    #Group1:0.802    #Group2:0.819    #Group3:0.814
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.821    #Group1:0.727    #Group2:0.739    #Group3:0.707
+		-Valid Accuracy:    #Group0:0.823    #Group1:0.731    #Group2:0.739    #Group3:0.723
+
+---------------------------------------------------------------------------------------------
+
+%Number of basis functions:8
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.846    #Group1:0.808    #Group2:0.832    #Group3:0.829
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.808    #Group2:0.831    #Group3:0.831
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.846    #Group1:0.808    #Group2:0.832    #Group3:0.829
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.808    #Group2:0.831    #Group3:0.831
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.846    #Group1:0.808    #Group2:0.832    #Group3:0.829
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.808    #Group2:0.831    #Group3:0.831
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.846    #Group1:0.806    #Group2:0.830    #Group3:0.822
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.805    #Group2:0.827    #Group3:0.823
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.828    #Group1:0.751    #Group2:0.765    #Group3:0.715
+		-Valid Accuracy:    #Group0:0.829    #Group1:0.756    #Group2:0.766    #Group3:0.728
+
+---------------------------------------------------------------------------------------------
+
+%Number of basis functions:10
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.846    #Group1:0.808    #Group2:0.833    #Group3:0.831
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.808    #Group2:0.833    #Group3:0.831
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.846    #Group1:0.808    #Group2:0.833    #Group3:0.831
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.808    #Group2:0.833    #Group3:0.831
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.846    #Group1:0.808    #Group2:0.833    #Group3:0.831
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.808    #Group2:0.833    #Group3:0.831
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.846    #Group1:0.806    #Group2:0.831    #Group3:0.824
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.806    #Group2:0.828    #Group3:0.824
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.829    #Group1:0.754    #Group2:0.768    #Group3:0.718
+		-Valid Accuracy:    #Group0:0.830    #Group1:0.760    #Group2:0.767    #Group3:0.729
+
+---------------------------------------------------------------------------------------------
+
+%Number of basis functions:15
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.846    #Group1:0.809    #Group2:0.834    #Group3:0.833
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.808    #Group2:0.833    #Group3:0.833
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.846    #Group1:0.809    #Group2:0.834    #Group3:0.833
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.808    #Group2:0.833    #Group3:0.833
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.846    #Group1:0.809    #Group2:0.834    #Group3:0.833
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.808    #Group2:0.833    #Group3:0.833
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.846    #Group1:0.807    #Group2:0.832    #Group3:0.828
+		-Valid Accuracy:    #Group0:0.850    #Group1:0.807    #Group2:0.829    #Group3:0.826
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.832    #Group1:0.639    #Group2:0.697    #Group3:0.725
+		-Valid Accuracy:    #Group0:0.833    #Group1:0.635    #Group2:0.691    #Group3:0.740
+
+---------------------------------------------------------------------------------------------
+
+%Number of basis functions:20
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.832    #Group1:0.763    #Group2:0.831    #Group3:0.834
+		-Valid Accuracy:    #Group0:0.834    #Group1:0.766    #Group2:0.831    #Group3:0.835
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.832    #Group1:0.763    #Group2:0.831    #Group3:0.834
+		-Valid Accuracy:    #Group0:0.834    #Group1:0.766    #Group2:0.831    #Group3:0.835
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.832    #Group1:0.763    #Group2:0.831    #Group3:0.834
+		-Valid Accuracy:    #Group0:0.834    #Group1:0.766    #Group2:0.831    #Group3:0.835
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.828    #Group1:0.752    #Group2:0.817    #Group3:0.831
+		-Valid Accuracy:    #Group0:0.831    #Group1:0.756    #Group2:0.813    #Group3:0.831
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.759    #Group1:0.645    #Group2:0.628    #Group3:0.734
+		-Valid Accuracy:    #Group0:0.762    #Group1:0.647    #Group2:0.623    #Group3:0.747
+
+---------------------------------------------------------------------------------------------
+
+%Number of basis functions:30
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.813    #Group1:0.722    #Group2:0.788    #Group3:0.836
+		-Valid Accuracy:    #Group0:0.814    #Group1:0.719    #Group2:0.784    #Group3:0.836
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.813    #Group1:0.722    #Group2:0.788    #Group3:0.836
+		-Valid Accuracy:    #Group0:0.814    #Group1:0.719    #Group2:0.784    #Group3:0.836
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.813    #Group1:0.722    #Group2:0.788    #Group3:0.836
+		-Valid Accuracy:    #Group0:0.814    #Group1:0.719    #Group2:0.784    #Group3:0.836
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.810    #Group1:0.736    #Group2:0.774    #Group3:0.833
+		-Valid Accuracy:    #Group0:0.811    #Group1:0.738    #Group2:0.770    #Group3:0.833
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.747    #Group1:0.653    #Group2:0.617    #Group3:0.767
+		-Valid Accuracy:    #Group0:0.749    #Group1:0.653    #Group2:0.613    #Group3:0.781
+
+---------------------------------------------------------------------------------------------
+
+##################################################
+
+***Augmented model 02***
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.832    #Group1:0.761    #Group2:0.791    #Group3:0.767
+		-Valid Accuracy:    #Group0:0.836    #Group1:0.762    #Group2:0.790    #Group3:0.775
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.832    #Group1:0.761    #Group2:0.791    #Group3:0.767
+		-Valid Accuracy:    #Group0:0.836    #Group1:0.762    #Group2:0.790    #Group3:0.775
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.832    #Group1:0.761    #Group2:0.791    #Group3:0.767
+		-Valid Accuracy:    #Group0:0.836    #Group1:0.762    #Group2:0.790    #Group3:0.775
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.830    #Group1:0.753    #Group2:0.782    #Group3:0.759
+		-Valid Accuracy:    #Group0:0.834    #Group1:0.755    #Group2:0.780    #Group3:0.765
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.813    #Group1:0.711    #Group2:0.722    #Group3:0.705
+		-Valid Accuracy:    #Group0:0.814    #Group1:0.715    #Group2:0.722    #Group3:0.722
+
+##################################################
+
+***Augmented model 03***
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.825    #Group1:0.713    #Group2:0.740    #Group3:0.727
+		-Valid Accuracy:    #Group0:0.827    #Group1:0.712    #Group2:0.738    #Group3:0.742
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.825    #Group1:0.713    #Group2:0.740    #Group3:0.727
+		-Valid Accuracy:    #Group0:0.827    #Group1:0.712    #Group2:0.738    #Group3:0.742
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.825    #Group1:0.713    #Group2:0.740    #Group3:0.727
+		-Valid Accuracy:    #Group0:0.827    #Group1:0.712    #Group2:0.738    #Group3:0.742
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.825    #Group1:0.713    #Group2:0.740    #Group3:0.728
+		-Valid Accuracy:    #Group0:0.828    #Group1:0.713    #Group2:0.736    #Group3:0.742
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.813    #Group1:0.707    #Group2:0.731    #Group3:0.695
+		-Valid Accuracy:    #Group0:0.815    #Group1:0.711    #Group2:0.729    #Group3:0.710
+
+##################################################
+
+***Augmented model 04***
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.837    #Group1:0.755    #Group2:0.793    #Group3:0.780
+		-Valid Accuracy:    #Group0:0.840    #Group1:0.753    #Group2:0.789    #Group3:0.791
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.837    #Group1:0.755    #Group2:0.793    #Group3:0.780
+		-Valid Accuracy:    #Group0:0.840    #Group1:0.753    #Group2:0.789    #Group3:0.791
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.837    #Group1:0.755    #Group2:0.793    #Group3:0.780
+		-Valid Accuracy:    #Group0:0.840    #Group1:0.753    #Group2:0.789    #Group3:0.791
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.834    #Group1:0.750    #Group2:0.787    #Group3:0.775
+		-Valid Accuracy:    #Group0:0.838    #Group1:0.749    #Group2:0.783    #Group3:0.786
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.816    #Group1:0.708    #Group2:0.736    #Group3:0.700
+		-Valid Accuracy:    #Group0:0.817    #Group1:0.710    #Group2:0.737    #Group3:0.718
+
+##################################################
+
+***Augmented model 05***
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.835    #Group1:0.777    #Group2:0.809    #Group3:0.796
+		-Valid Accuracy:    #Group0:0.840    #Group1:0.778    #Group2:0.803    #Group3:0.804
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.835    #Group1:0.777    #Group2:0.809    #Group3:0.796
+		-Valid Accuracy:    #Group0:0.840    #Group1:0.778    #Group2:0.803    #Group3:0.804
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.835    #Group1:0.777    #Group2:0.809    #Group3:0.796
+		-Valid Accuracy:    #Group0:0.840    #Group1:0.778    #Group2:0.803    #Group3:0.804
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.833    #Group1:0.770    #Group2:0.802    #Group3:0.785
+		-Valid Accuracy:    #Group0:0.838    #Group1:0.772    #Group2:0.794    #Group3:0.795
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.814    #Group1:0.724    #Group2:0.735    #Group3:0.719
+		-Valid Accuracy:    #Group0:0.815    #Group1:0.727    #Group2:0.735    #Group3:0.734
+
+##################################################
+
+***Augmented model 06***
+
+	%lambda:0
+		-Train Accuracy:    #Group0:0.834    #Group1:0.776    #Group2:0.808    #Group3:0.801
+		-Valid Accuracy:    #Group0:0.839    #Group1:0.778    #Group2:0.802    #Group3:0.806
+
+	%lambda:1e-10
+		-Train Accuracy:    #Group0:0.834    #Group1:0.776    #Group2:0.808    #Group3:0.801
+		-Valid Accuracy:    #Group0:0.839    #Group1:0.778    #Group2:0.802    #Group3:0.806
+
+	%lambda:1e-06
+		-Train Accuracy:    #Group0:0.834    #Group1:0.776    #Group2:0.808    #Group3:0.801
+		-Valid Accuracy:    #Group0:0.839    #Group1:0.778    #Group2:0.802    #Group3:0.806
+
+	%lambda:100
+		-Train Accuracy:    #Group0:0.834    #Group1:0.770    #Group2:0.801    #Group3:0.791
+		-Valid Accuracy:    #Group0:0.838    #Group1:0.773    #Group2:0.797    #Group3:0.796
+
+	%lambda:10000
+		-Train Accuracy:    #Group0:0.816    #Group1:0.727    #Group2:0.740    #Group3:0.729
+		-Valid Accuracy:    #Group0:0.818    #Group1:0.728    #Group2:0.740    #Group3:0.742
+

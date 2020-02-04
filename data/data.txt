@@ -1,0 +1,2 @@
+you can download the data from here:
+https://github.com/amirrezaie1415/ML_course/tree/master/projects/project1/data
